@@ -38,7 +38,7 @@ env:
 
 jobs:
   build:
-    runs-on: windows-
+    runs-on: windows-2019
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
